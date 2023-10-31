@@ -20,9 +20,9 @@ I'm a postdoc at the Medical Vision Group led by Prof. Polina Golland. My resear
 representation to increase the robustness of systems for the analysis of clinical imaging data. 
 
 After completing a MSc in neuro-technology at Imperial College London in 2016, I joined the incubator of start-ups 
-[Founders Factory](https://foundersfactory.com/) as a member of the AI team. I then pursued a PhD at University College London with 
-[Dr. Juan Eugenio Iglesias](http://www.jeiglesias.com) on developing a domain randomisation strategy 
-([SynthSeg](https://github.com/BBillot/SynthSeg)) for domain-agnostic segmentation of brain MRI.
+[Founders Factory](https://foundersfactory.com/) as a member of the AI team. I then pursued a PhD at University College 
+London with [Dr. Juan Eugenio Iglesias](http://www.jeiglesias.com) on developing a domain randomisation strategy 
+for domain-agnostic segmentation of brain MRI ([SynthSeg](https://github.com/BBillot/SynthSeg)).
 
 In addition to further explore domain randomisation techniques, I'm working on different projects 
 including equivariant networks, registration of fetal MRI, 
