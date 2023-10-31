@@ -6,7 +6,7 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 2
-display_categories: [My projects,Collaboration]
+display_categories: [My projects,Collaborations]
 horizontal: false
 ---
 

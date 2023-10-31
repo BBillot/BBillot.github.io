@@ -5,5 +5,5 @@ description: A tool implemented in FreeSurfer to turn any brain scan into a 1mm 
 img: assets/img/synthsr.png
 redirect: https://surfer.nmr.mgh.harvard.edu/fswiki/SynthSR
 importance: 3
-category: Collaboration
+category: Collaborations
 ---
