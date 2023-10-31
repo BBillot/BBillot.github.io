@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - BBillot
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - BBillot/SynthSeg
+  - BBillot/SynthSR
+  - BBillot/hypothalamus_seg
+  - BBillot/lab2im

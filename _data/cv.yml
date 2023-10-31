@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Benjamin Billot
     - name: Date of Birth
-      value: 14th March 1879
+      value: 21st July 1993
     - name: Languages
-      value: English, German
+      value: English, French
 
 - title: Education
   type: time_table

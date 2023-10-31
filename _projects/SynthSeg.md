@@ -1,12 +1,14 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
+title: SynthSeg
+description: A domain-agnostic brain MR segmentation suite implemented in FreeSurfer
+img: assets/img/synthseg.png
+redirect: https://surfer.nmr.mgh.harvard.edu/fswiki/SynthSeg
+importance: 1
+category: My projects
 ---
+
+<!-- THE FOLLOWING WON'T BE DISPLAYED BUT IT SHOWS HOW TO WRITE A PROJECT PAGE IF THERE IS NO URL LINK -->
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
@@ -79,3 +81,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 {% endraw %}
+
