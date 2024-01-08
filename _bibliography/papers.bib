@@ -18,18 +18,6 @@
     selected={true},
 }
 
-@article{gazula_machine_2023,
-    title = {{Machine} learning of dissection photographs and surface scanning for quantitative {3D} neuropathology},
-    author = {Harsha Gazula and Henry Tregidgo and Benjamin Billot and Yaël Balbastre and Jonathan William-Ramirez and Rogeny Herisse and Lucas Deden-Binder and Adria Casamitjana and E. Melief and C. Latimer and M. Kilgore and M. Montine and E. Robinson and E. Blackburn and M. Marshall and T. Connors and D. Oakley and M. Frosch and Sean Young and K. Van Leemput and A. Dalca and B. Fischl and C. Mac Donald and C. Keene and B. Hyman and J. E. Iglesias},
-    journal = {e{Life},
-    year = {2023},
-    volume = {12},
-    abstract = {We present open-source tools for 3D analysis of photographs of dissected slices of human brains, which are routinely acquired in brain banks but seldom used for quantitative analysis. Our tools can: (i) 3D reconstruct a volume from the photographs and, optionally, a surface scan; and (ii) produce a high-resolution 3D segmentation into 11 brain regions, independently of the slice thickness. Our tools can be used as a substitute for ex vivo magnetic resonance imaging (MRI), which requires access to an MRI scanner, ex vivo scanning expertise, and considerable financial resources. We tested our tools on synthetic and real data from two NIH Alzheimer’s Disease Research Centers. The results show that our methodology yields accurate 3D reconstructions, segmentations, and volumetric measurements that are highly correlated to those from MRI. Our method also detects expected differences between post mortem confirmed Alzheimer’s disease cases and controls. The tools are available in our widespread neuroimaging suite “FreeSurfer” (https://surfer.nmr.mgh.harvard.edu/fswiki/PhotoTools).}
-    html={https://elifesciences.org/reviewed-preprints/91398v1},
-    bibtex_show={true},
-    abbr={Journal},
-}
-
 @article{iglesias_synthsr_2023,
     title = {SynthSR: A public AI tool to turn heterogeneous clinical brain scans into high-resolution T1-weighted images for 3D morphometry},
     author = {Juan E. Iglesias  and Benjamin Billot  and Yaël Balbastre  and Colin Magdamo  and Steven E. Arnold  and Sudeshna Das  and Brian L. Edlow  and Daniel C. Alexander  and Polina Golland  and Bruce Fischl },
@@ -92,6 +80,18 @@
     abstract = {Background Portable, low-field-strength (0.064-T) MRI has the potential to transform neuroimaging but is limited by low spatial resolution and low signal-to-noise ratio. Purpose To implement a machine learning super-resolution algorithm that synthesizes higher spatial resolution images (1-mm isotropic) from lower resolution T1-weighted and T2-weighted portable brain MRI scans, making them amenable to automated quantitative morphometry. Materials and Methods An external high-field-strength MRI data set (1-mm isotropic scans from the Open Access Series of Imaging Studies data set) and segmentations for 39 regions of interest (ROIs) in the brain were used to train a super-resolution convolutional neural network (CNN). Secondary analysis of an internal test set of 24 paired low- and high-field-strength clinical MRI scans in participants with neurologic symptoms was performed. These were part of a prospective observational study (August 2020 to December 2021) at Massachusetts General Hospital (exclusion criteria: inability to lay flat, body habitus preventing low-field-strength MRI, presence of MRI contraindications). Three well-established automated segmentation tools were applied to three sets of scans: high-field-strength (1.5–3 T, reference standard), low-field-strength (0.064 T), and synthetic high-field-strength images generated from the low-field-strength data with the CNN. Statistical significance of correlations was assessed with Student t tests. Correlation coefficients were compared with Steiger Z tests. Results Eleven participants (mean age, 50 years ± 14; seven men) had full cerebrum coverage in the images without motion artifacts or large stroke lesion with distortion from mass effect. Direct segmentation of low-field-strength MRI yielded nonsignificant correlations with volumetric measurements from high field strength for most ROIs (P > .05). Correlations largely improved when segmenting the synthetic images: P values were less than .05 for all ROIs (eg, for the hippocampus [r = 0.85; P < .001], thalamus [r = 0.84; P = .001], and whole cerebrum [r = 0.92; P < .001]). Deviations from the model (z score maps) visually correlated with pathologic abnormalities. Conclusion This work demonstrated proof-of-principle augmentation of portable MRI with a machine learning super-resolution algorithm, which yielded highly correlated brain morphometric measurements to real higher resolution images. © RSNA, 2022 Online supplemental material is available for this article. See also the editorial by Ertl-Wagner amd Wagner in this issue. An earlier incorrect version appeared online.},
     html = {https://pubs.rsna.org/doi/abs/10.1148/radiol.220522},
     pdf = {https://pubs.rsna.org/doi/epdf/10.1148/radiol.220522},
+    bibtex_show={true},
+    abbr={Journal},
+}
+
+@article{gazula_machine_2023,
+    title = {{Machine} learning of dissection photographs and surface scanning for quantitative {3D} neuropathology},
+    author = {Harsha Gazula and Henry Tregidgo and Benjamin Billot and Yaël Balbastre and Jonathan William-Ramirez and Rogeny Herisse and Lucas Deden-Binder and Adria Casamitjana and E. Melief and C. Latimer and M. Kilgore and M. Montine and E. Robinson and E. Blackburn and M. Marshall and T. Connors and D. Oakley and M. Frosch and Sean Young and K. Van Leemput and A. Dalca and B. Fischl and C. Mac Donald and C. Keene and B. Hyman and J. E. Iglesias},
+    journal = {e{Life},
+    year = {2023},
+    volume = {12},
+    abstract = {We present open-source tools for 3D analysis of photographs of dissected slices of human brains, which are routinely acquired in brain banks but seldom used for quantitative analysis. Our tools can: (i) 3D reconstruct a volume from the photographs and, optionally, a surface scan; and (ii) produce a high-resolution 3D segmentation into 11 brain regions, independently of the slice thickness. Our tools can be used as a substitute for ex vivo magnetic resonance imaging (MRI), which requires access to an MRI scanner, ex vivo scanning expertise, and considerable financial resources. We tested our tools on synthetic and real data from two NIH Alzheimer’s Disease Research Centers. The results show that our methodology yields accurate 3D reconstructions, segmentations, and volumetric measurements that are highly correlated to those from MRI. Our method also detects expected differences between post mortem confirmed Alzheimer’s disease cases and controls. The tools are available in our widespread neuroimaging suite “FreeSurfer” (https://surfer.nmr.mgh.harvard.edu/fswiki/PhotoTools).}
+    html={https://elifesciences.org/reviewed-preprints/91398v1},
     bibtex_show={true},
     abbr={Journal},
 }
